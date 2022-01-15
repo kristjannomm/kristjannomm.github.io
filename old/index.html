@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>... Offical Page</title>
+</head>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<body style="background-color:#f0243c;"></body>
+    
+<div>
+
+    <div class="w3-sidebar w3-bar-block w3-card w3-animate-left " style="background-color: #f0243c;" id="leftMenu">
+        <button onclick="closeLeftMenu()" class="w3-bar-item w3-button w3-large">Close &times;</button>
+        <a href="index.html" class="w3-bar-item w3-button">Home</a>
+        <a href="about.html" class="w3-bar-item w3-button">Contact</a>
+    </div>
+
+    <div class="" style="background-color: #f0243c;">
+        <button class="w3-button  w3-xlarge w3-left" onclick="openLeftMenu()">&#9776;</button>
+        <div class="w3-container">
+        </div>
+    </div>
+
+
+        <script>
+            function openLeftMenu() {
+              document.getElementById("leftMenu").style.display = "block";
+            }
+            
+            function closeLeftMenu() {
+              document.getElementById("leftMenu").style.display = "none";
+            }
+            
+            function openRightMenu() {
+              document.getElementById("rightMenu").style.display = "block";
+            }
+            
+            function closeRightMenu() {
+              document.getElementById("rightMenu").style.display = "none";
+            }
+        </script>
+</div>
+
+
+
+</body>
+</html>
+
