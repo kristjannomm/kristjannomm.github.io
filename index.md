@@ -1,3 +1,10 @@
-# Hello world  
+---
+layout: default
+title: kristjannomm.github.io
+---
 
-test
+## Hello World 
+
+# Hello!
+
+- [Projects](projects.html)
